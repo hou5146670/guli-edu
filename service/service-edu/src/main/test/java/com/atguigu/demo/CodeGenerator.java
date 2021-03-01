@@ -21,7 +21,7 @@ public class CodeGenerator {
         // 2、全局配置
         GlobalConfig gc = new GlobalConfig();
         String projectPath = System.getProperty("user.dir");
-        gc.setOutputDir("E:\\work\\guli-education\\service\\service-edu" + "/src/main/java");
+        gc.setOutputDir("C:\\Users\\Administrator\\IdeaProjects\\guli-education\\service\\service-edu" + "/src/main/java");
 
         gc.setAuthor("test.java");
         gc.setOpen(false); //生成后是否打开资源管理器
@@ -38,10 +38,10 @@ public class CodeGenerator {
 
         // 3、数据源配置
         DataSourceConfig dsc = new DataSourceConfig();
-        dsc.setUrl("jdbc:mysql://localhost:3306/guli?serverTimezone=GMT%2B8");
+        dsc.setUrl("jdbc:mysql://114.55.100.102:3306/guli?serverTimezone=GMT%2B8");
         dsc.setDriverName("com.mysql.cj.jdbc.Driver");
         dsc.setUsername("root");
-        dsc.setPassword("root");
+        dsc.setPassword("123456");
         dsc.setDbType(DbType.MYSQL);
         mpg.setDataSource(dsc);
 
