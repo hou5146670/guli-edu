@@ -28,7 +28,7 @@ public class ConstantPropertiesUtil implements InitializingBean {
 
 
         @Override
-        public void afterPropertiesSet() throws Exception {
+        public void afterPropertiesSet() throws Exception  {
         END_POINT = endpoint;
         ACCESS_KEY_ID = keyId;
         ACCESS_KEY_SECRET = keySecret;
